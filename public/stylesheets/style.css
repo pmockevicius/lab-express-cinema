@@ -4,5 +4,14 @@ body {
 }
 
 a {
-  color: #00B7FF;
+  color: #53cf53;
+}
+
+#homePage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(/images/cinema.jpg);
+  background-repeat: no-repeat;
 }

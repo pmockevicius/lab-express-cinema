@@ -1,0 +1,9 @@
+<h1>Movies Page</h1>
+
+{{#each movies}}
+    <section class="author-summary">
+        <h2>{{this.title}}</h2>
+        <img src="{{this.image}}" alt="" srcset="">
+        <a href="/movies/{{this._id}}">See more</a>
+    </section>
+{{/each}}
